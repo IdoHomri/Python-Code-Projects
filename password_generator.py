@@ -61,6 +61,6 @@ for i in range(length):
     generated_password += new_char
 
 
-print("\nYour new password is: " + generated_password)
+print("\nYour new password is: " + generated_password + '\n')
 
 
