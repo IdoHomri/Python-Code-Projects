@@ -1,7 +1,7 @@
 from nis import match
 import random
 
-spec_chars = ['!', '@', '#', '$', '%', '&', '(', ')', '=']
+spec_chars = ['!', '@', '#', '$', '%', '&', '(', ')', '=', '*']
 generated_password = ""
 length = 0 
 can_duplicate = False 
@@ -30,7 +30,7 @@ while length == 0:
     try:
         length = int(input("\ninsert password length (type '0' for random): "))
         # set random length if the input is 0 (for random)
-        if length == 0:
+        if (length == 0):
             length = random.randint(8,12)
             print("\tlength will be " + str(length))
     except:
@@ -39,16 +39,16 @@ while length == 0:
 
 # ask and set if characters can be repeated
 ans = ""
-while ans != 'N' and ans != 'n' and ans != 'Y' and ans != 'y':
+while (ans != 'N' and ans != 'n' and ans != 'Y' and ans != 'y'):
     ans = input('\ncan characters be repeated? [Y/N]: ')
 can_duplicate = ans == 'Y' or ans == 'y'
 
 
 # ask to use special chars
 ans = ""
-while ans != 'N' and ans != 'n' and ans != 'Y' and ans != 'y':
+while (ans != 'N' and ans != 'n' and ans != 'Y' and ans != 'y'):
     ans = input('\ncan contain spacial characters? [Y/N]: ')
-    if(ans == 'Y' or ans == 'y'):
+    if (ans == 'Y' or ans == 'y'):
         chars_types_count = 4 # the 4th is the special chars, effects the random char type choose
 
 
