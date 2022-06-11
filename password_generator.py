@@ -61,6 +61,7 @@ for i in range(length):
             new_char = get_char()
     generated_password += new_char
 
+
 print("\nYour new password is: " + generated_password)
 
 
