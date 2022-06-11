@@ -1,6 +1,5 @@
 from nis import match
 import random
-import pyperclip
 
 spec_chars = ['!', '@', '#', '$', '%', '&', '(', ')', '=']
 generated_password = ""
