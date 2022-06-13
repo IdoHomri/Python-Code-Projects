@@ -1,4 +1,4 @@
-from nis import match
+# from nis import match
 import random
 
 spec_chars = ['!', '@', '#', '$', '%', '&', '(', ')', '=', '*']
