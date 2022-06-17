@@ -1,6 +1,6 @@
 # this exercises are taken from https://www.w3resource.com/python-exercises/python-basic-exercises.php
 
-# calendar
+# calendar  
 def ex12():
     import calendar
 
@@ -63,11 +63,12 @@ def ex42(file):
 
 # get os info (copied, was not written by me)
 def ex43():
-    import os, sys, platform, sysconfig
-    print("os.name                     ", os.name)
-    print("sys.platform                ", sys.platform)
-    print("platform.system()           ", platform.system())
-    print("sysconfig.get_platform()    ", sysconfig.get_platform())
-    print("platform.machine()          ", platform.machine())
-    print("platform.architecture()     ", platform.architecture())
+        import os, sys, platform, sysconfig
+        print("os.name                     ", os.name)
+        print("sys.platform                ", sys.platform)
+        print("platform.system()           ", platform.system())
+        print("sysconfig.get_platform()    ", sysconfig.get_platform())
+        print("platform.machine()          ", platform.machine())
+        print("platform.architecture()     ", platform.architecture())
 
+ex12()
