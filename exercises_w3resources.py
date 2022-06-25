@@ -1,6 +1,9 @@
 # this exercises are taken from https://www.w3resource.com/python-exercises/python-basic-exercises.php
 
 # calendar  
+import math
+
+
 def ex12():
     import calendar
 
@@ -71,4 +74,9 @@ def ex43():
         print("platform.machine()          ", platform.machine())
         print("platform.architecture()     ", platform.architecture())
 
-ex12()
+# count the number occurrence of a specific character in a string
+def ex84(str, ch):
+    return str.count(ch)
+
+
+print(ex84("ido homri",'i'))
