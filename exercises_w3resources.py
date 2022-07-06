@@ -77,6 +77,3 @@ def ex43():
 # count the number occurrence of a specific character in a string
 def ex84(str, ch):
     return str.count(ch)
-
-
-print(ex84("ido homri",'i'))
